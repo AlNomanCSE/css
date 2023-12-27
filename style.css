@@ -1,0 +1,13 @@
+ul {
+    list-style-type: none;
+}
+ul li:first-child{
+color: #b84f4f;
+}
+ul li:nth-child(2){
+    font-size: large;
+    color: aquamarine;
+}
+ul li:nth-last-child(1){
+    color: blueviolet;
+}
