@@ -28,7 +28,7 @@
 .card img {
     width: 100%;
 } */
-
+/* 
 .container {
     background-color: brown;
     height: 100px;
@@ -72,4 +72,26 @@
         top: 0;
         background-color: rgb(5, 180, 14);
     }
+} */
+.container {
+    height: 700px;
+    margin: 50px;
+    background-color: aquamarine;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.item {
+    padding: 10px;
+    background-color: brown;
+    font-size: 2em;
+    width: 100px;
+}
+
+.item-1 {
+    font-size: 70px;
+    
+    flex-grow: 1;
 }
