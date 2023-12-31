@@ -7,17 +7,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- <h1 class="heading">This is Heading with shadow</h1>
-    <div class="card">
-      <img src="./sandpiper-8429874_1280.jpg" alt="" />
-      <h2>My Class</h2>
-    </div> -->
-    <div class="container">
-      <div class="item item-1">A</div>
-      <div class="item item-2">B</div>
-      <div class="item item-3">C</div>
-      <div class="item item-4">D</div>
-      <div class="item item-5">E</div>
-    </div>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Input and Label Example</title>
+      </head>
+      <body>
+        <form action="/submit" method="post">
+          <!-- Label for text input -->
+          <label for="username">Username:</label>
+          <!-- Text input -->
+          <input type="text" id="username" name="username" required />
+
+          <br />
+
+          <!-- Label for password input -->
+          <label for="password">Password:</label>
+          <!-- Password input -->
+          <input type="password" id="password" name="password" required />
+
+          <br />
+
+          <!-- Label for email input -->
+          <label for="email">Email:</label>
+          <!-- Email input -->
+          <input type="email" id="email" name="email" required />
+
+          <br />
+
+          <!-- Submit button -->
+          <input type="submit" value="Submit" />
+        </form>
+      </body>
+    </html>
   </body>
 </html>
